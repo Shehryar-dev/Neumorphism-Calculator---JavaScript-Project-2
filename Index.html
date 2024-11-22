@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Neumorphism calculator design</title>
+    <link rel="stylesheet" href="assets/programming.png">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="container">
+        <form>
+            <div class="toggle">
+                <div class="theme-switch">
+                    <label for="toggle">
+                        <input type="checkbox" id="toggle">
+                        <div class="slider round"></div>
+                    </label>
+                </div>
+            </div>
+            <div class="result">
+                <!-- <p id="result-box">0</p>
+            <p id="result-box">0</p> -->
+                <input id="result-box" type="text" name="show">
+            </div>
+
+
+            <div class="buttons">
+                <input type="button" value="AC" class="button action-btn" onclick="clearDisplay()" id="clear">
+                <input type="button" value="DEL" value="DEL" onclick="show.value =show.value.toString().slice(0,-1)"
+                    class="button action-btn">
+                <input class="button num-button  action-btn" type="button" value="%" onclick="show.value +='%'">
+                <input class="button num-button  calc-action-btn" type="button" value="/" onclick="show.value +='/'">
+                <input type="button" value="7" onclick="show.value += 7" class="button num-button seven">
+                <input type="button" value="8" onclick="show.value += 8" class="button num-button eight">
+                <input type="button" value="9" onclick="show.value += 9" class="button num-button  nine">
+                <input type="button" value="*" onclick="show.value +='*'" class="button num-button  calc-action-btn">
+                <input type="button" value="4" onclick="show.value += 4" class="button num-button  four">
+                <input type="button" value="5" onclick="show.value += 5" class="button num-button  five">
+                <input type="button" value="6" onclick="show.value += 6" class="button num-button  six">
+                <input type="button" value="-" onclick="show.value +='-'" class="button num-button  calc-action-btn">
+                <input type="button" value="1" onclick="show.value += 1" class="button num-button  one">
+                <input type="button" value="2" onclick="show.value += 2" class="button num-button  two">
+                <input type="button" value="3" onclick="show.value += 3" class="button num-button  three">
+                <input type="button" value="+" onclick="show.value +='+'" class="button num-button  calc-action-btn">
+                <input type="button" value="0" onclick="show.value += 0" class="button num-button  zero">
+                <input type="button" value="." onclick="show.value +='.'" class="button num-button  point">
+                <input type="button" value="=" onclick="show.value =eval(show.value)" class="button calc-action-btn"
+                    id="total">
+            </div>
+        </form>
+
+    </div>
+    <script src="assets/index.js"></script>
+    <!-- partial -->
+    <!-- <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.1.1/gsap.min.js'></script>
+    <script src="./script.js"></script> -->
+
+</body>
+
+</html>
