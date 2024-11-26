@@ -36,6 +36,21 @@ A sleek and modern **Neumorphic Calculator** with dual themes (Dark & Light) and
 - **JavaScript** for calculator functionality and theme toggling.
 
 ---
+
+
+### ✨ Credits
+Designed and developed by **@Shehryar-dev**.  
+If you like this project, give it a ⭐ on GitHub!
+
+---
+
+## 💼 Connect
+
+- **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/shehryarkhandiv)
+- **GitHub**: [GitHub](https://github.com/Shehryar-dev)
+- **Twitter**: [X Account](https://x.com/Morphues_S)
+- **Portfolio**: [Portfolio](https://shehriyar-portfolio-v2.netlify.app/)
+
 <!--
 ## ⚙️ How to Use -->
 
